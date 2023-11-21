@@ -44,8 +44,8 @@ console.log(output);
 
 // 下記の関数を経由して2つの関数を実行するような処理
 function addTax(price, func) {
-  const name = "値段";
-  func(name, taxPrice);
+  const price = "値段";
+  func(price, taxPrice);
   const taxPrice = Math.round(price * 1.10);
   }
   // トマトの税込み価格をコンソールに表示させる処理
